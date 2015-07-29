@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hab9sr/twitter-clone-tb2.git"
+  },
   "dependencies": {
     "express": "~4.13.0",
     "lodash": "~3.9.3",
