@@ -1,0 +1,9 @@
+var config = require('nconf')
+, path = require('path')
+
+var phase = process.env.NODE_ENV
+var configPath = path.join(_dirname, 'config-'+phase+'.json')
+
+config.file(configPath)
+
+module.exports = config
